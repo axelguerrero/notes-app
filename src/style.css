@@ -11,12 +11,30 @@ html, body {
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
 	
-body {
+body {  
 	font-size: 1.4rem;
-	text-rendering: optimizeLegibility;
-}
+	text-rendering: optimizeLegibility;}
 	/* sets the base font size for the document; turns on kerning pairs and ligatures */
+
+	#color {
+		background-color:rgb(240, 255, 253);
+	}	
 	
+	h1 {
+		font-size: 3.4rem;
+		color: rgb(0, 123, 255);
+	}
+
+#sign-up-btn {
+	color:rgb(0, 0, 0);
+	background-color:antiquewhite;
+}
+
+#log-in-btn {
+	color:(0, 0, 0);
+	background-color:antiquewhite;
+}
+
 body, ul, ol, dl {
 	margin: 0;
 }
@@ -27,9 +45,6 @@ footer, header, nav, section, video {
 	
 	/* ensures that older browsers will display HTML5 elements correctly */
 	
-h1 {
-	font-size: 1.4rem;
-}
 	/* begins to set up font sizes relative to base rem – h1 has been used as an example */
 	
 p { 
