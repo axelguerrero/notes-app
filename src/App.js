@@ -1,4 +1,4 @@
-import Def from "./views/default";
+import Def from "../views/default";
 
 const React = require("react")
 

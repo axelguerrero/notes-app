@@ -1,11 +1,9 @@
-const React = require("react")
-const Def = require("./default")
+import React from 'react'
+import Def from './default'
 
 function Error404 () {
     return (
-        <Def>
         <h1>Error</h1>
-        </Def>
     )
 
 }
