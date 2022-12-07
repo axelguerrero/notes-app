@@ -1,5 +1,5 @@
-import Def from "./default";
-const React = require("react")
+import React from 'react'
+import Def from './default'
 
 function Home () {
     return (

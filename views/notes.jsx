@@ -1,11 +1,10 @@
 import React from 'react'
 import Def from './default'
 
-function Error404 () {
+function Notes() {
     return (
-        <h1>Error</h1>
+            <h1>Notes</h1>
     )
-
 }
 
-export default Error404;
+export default Notes;

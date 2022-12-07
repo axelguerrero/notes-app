@@ -1,14 +1,12 @@
 import React from 'react'
 import Def from './default'
 
-function SignLog () {
+function Account() {
     return (
         <Def>
-        
+            <h1>Account</h1>
         </Def>
     )
-
 }
 
-export default SignLog;
-
+export default Account;

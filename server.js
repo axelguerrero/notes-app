@@ -12,28 +12,33 @@ app.engine('jsx', require('express-react-views').createEngine());
 //Routes
 //home route
 app.get("/", (req, res) => {   
-    res.render("home")
+    res.render("Home")
 })
 
 //prod route
 app.get("/productivity", (req, res) => {
-    res.render("productivity")
+    res.render("Productivity")
 })
 
 
 //about route
 app.get("/about", (req, res) => {
-    res.render("about")
+    res.render("About")
 })
 
 //contact route
 app.get("/contact", (req, res) => {
-    res.send("contact")
+    res.render("Contact")
+})
+
+//account
+app.get("/account", (req, res) => {
+    res.render("Account")
 })
 
 //error route
 app.get('*', (req, res) => {
-    res.send('error404')
+    res.render('Error404')
   }) 
 
 app.listen(process.env.PORT, () => {
