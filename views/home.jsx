@@ -1,3 +1,4 @@
+import Def from "./default";
 const React = require("react")
 
 function Home () {
