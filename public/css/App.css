@@ -1,20 +1,17 @@
 body {
   text-align: left;
-  color: rgb(20, 70, 220);
+  background-color: #03045e;
+  color:white;
   font-family: monospace;
   font-size: 1.5rem;
-  background-color: green;
 }
 
 li {
   list-style: none;
-  
+  display: inline;
 }
-
- p {
-  color: red;
- }
 
 a {
   text-decoration: none;
   color: inherit;
+}
