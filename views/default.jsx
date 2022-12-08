@@ -1,10 +1,11 @@
-const React = require("react")
+import React from "react";
 
 function Def (html) {
     return (
         <html>
             <head>
                 <title>Notes |</title>
+                <link rel="stylesheet" href="/css/App.css"/>
                 <link rel="stylesheet" href="/css/contactStyle.css"/>
             </head>
             <body>
