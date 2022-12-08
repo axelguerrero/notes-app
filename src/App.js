@@ -4,7 +4,9 @@ const React = require("react")
 
 function App() {
   return ( 
+    <div>
       <Def></Def>
+      </div>
   )
 }
 

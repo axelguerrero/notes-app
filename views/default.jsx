@@ -5,6 +5,7 @@ function Def (html) {
         <html>
             <head>
                 <title>Notes |</title>
+                <link rel="stylesheet" href="/css/contactStyle.css"/>
             </head>
             <body>
                 <nav>
