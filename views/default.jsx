@@ -7,6 +7,7 @@ function Def (html) {
                 <title>Notes |</title>
                 <link rel="stylesheet" href="/css/App.css"/>
                 <link rel="stylesheet" href="/css/contactStyle.css"/>
+                <link rel="stylesheet" href="/css/aboutpage.css"/>
             </head>
             <body>
                 <nav>
