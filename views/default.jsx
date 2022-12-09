@@ -11,10 +11,10 @@ function Def (html) {
                 <link rel="stylesheet" href="/css/aboutpage.css"/>
             </head>
             <body>
+                <nav id="navBar">
                     <a href="/" className="logo">
                     <img src="./images/logo.png" alt="app logo"/>
                     </a>
-                <nav id="navBar">
                     <ul>
                         <li>
                            <a href="/productivity">Productivity</a>
