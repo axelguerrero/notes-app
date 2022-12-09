@@ -1,0 +1,13 @@
+.actionButtons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addButton {
+    margin-left: 100px;
+}
+
+.removeButton {
+    margin-right: 100px;
+}

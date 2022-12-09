@@ -7,8 +7,8 @@ function Def (html) {
             <head>
                 <title>Notestar |</title>
                 <link rel="stylesheet" href="/css/App.css"/>
-                <link rel="stylesheet" href="/css/contactStyle.css"/>
                 <link rel="stylesheet" href="/css/aboutpage.css"/>
+                <link rel="stylesheet" href="/css/Notes.css"/>
             </head>
             <body>
                 <nav id="navBar">
@@ -17,7 +17,7 @@ function Def (html) {
                     </a>
                     <ul>
                         <li>
-                           <a href="/productivity">Productivity</a>
+                           <a href="/notes">Notes</a>
                         </li>
                         <li>
                             <a href="/about">About</a>

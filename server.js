@@ -8,7 +8,6 @@ app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static("public"))
-
 // app.use("/prodControllers", require("/controllers/prodControllers"))
 
 //Routes
@@ -18,8 +17,8 @@ app.get("/", (req, res) => {
 })
 
 //prod route
-app.get("/productivity", (req, res) => {
-    res.render("Productivity")
+app.get("/notes", (req, res) => {
+    res.render("Notes")
 })
 
 
