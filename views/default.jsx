@@ -5,7 +5,7 @@ function Def (html) {
     return (
         <html>
             <head>
-                <title>Notes |</title>
+                <title>Notestar |</title>
                 <link rel="stylesheet" href="/css/App.css"/>
                 <link rel="stylesheet" href="/css/contactStyle.css"/>
                 <link rel="stylesheet" href="/css/aboutpage.css"/>
