@@ -1,8 +1,11 @@
-.logo{
-    color: aqua;
-    align-items: center;
+body {
+    color: white;
 }
 
-/* body {
-    background-color: brown;
-} */
+.contactForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

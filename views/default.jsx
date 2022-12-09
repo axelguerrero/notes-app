@@ -1,4 +1,5 @@
 import React from "react";
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 
 function Def (html) {
     return (
@@ -10,7 +11,10 @@ function Def (html) {
                 <link rel="stylesheet" href="/css/aboutpage.css"/>
             </head>
             <body>
-                <nav>
+                <nav id="navBar">
+                    <a href="/" className="logo">
+                    <img src="./images/logo.png" alt="app logo"/>
+                    </a>
                     <ul>
                         <li>
                            <a href="/productivity">Productivity</a>
@@ -22,6 +26,9 @@ function Def (html) {
                             <a href="/contact">Contact</a>
                         </li>
                     </ul>
+                    <div className="profIcon">
+                    <a href="/account"><AccountCircleOutlinedIcon fontSize="large"/></a>
+                    </div>
                 </nav>
                 {html.children}
             </body>
