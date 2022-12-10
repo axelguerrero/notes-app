@@ -26,9 +26,9 @@ function Def (html) {
                             <a href="/contact">Contact</a>
                         </li>
                     </ul>
-                    <div className="profIcon">
+                    {/* <div className="profIcon">
                     <a href="/account"><AccountCircleOutlinedIcon fontSize="large"/></a>
-                    </div>
+                    </div> */}
                 </nav>
                 {html.children}
             </body>
@@ -36,4 +36,4 @@ function Def (html) {
     )
 }
 
-export default Def;
+module.exports = Def
