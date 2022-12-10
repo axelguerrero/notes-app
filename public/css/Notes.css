@@ -8,6 +8,18 @@
     margin-left: 100px;
 }
 
-.removeButton {
+.editButton {
+    margin-left: 100px;
+}
+
+.trashButton {
     margin-right: 100px;
+}
+
+
+
+
+
+h5 {
+    text-align: center;
 }
